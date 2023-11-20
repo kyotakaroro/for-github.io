@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.title-content{
+    background-color:blueviolet;
+    width:55%;
+    margin:0 auto;
+    
+}
+.just-content{
+    display: flex;
+    flex-wrap: wrap;
+    /* 当空间不足时，允许元素换行 */
+}
+
+h1{
+    color:#0031AD;
+    background-color: beige;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size:xx-large;
+
+}
+
+/* 展示部分 */
+.title-potofolio{
+    background-color: aquamarine;
+    flex: 1; /* 每个元素占据等量的空间 */
+    padding: 10px; /* 仅为美观，可根据需要调整 */
+    transition: transform 0.5s ease;
+}
+.potofolio a:hover{
+    transform: scale(1.2); 
+}
+.potofolio{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+.potofolio a{
+    flex: 1; 
+    padding: 10px;/* 仅为美观，可根据需要调整 */
+    margin:10px;
+    background-color:antiquewhite;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.potofolio img{
+    width:150px;
+    height: 100px;
+    margin:0 auto;
+    }
+
+/* 文章部分 */
+.filter-articles{
+    background-color: bisque;
+    flex: 1; /* 每个元素占据等量的空间 */
+    padding: 10px; /* 仅为美观，可根据需要调整 */
+    transition: transform 0.5s ease;
+}
+
+
+.articles{
+    display: flex;
+    flex-direction:column;
+
+}
+.articles a:hover{
+    transform: scale(1.05); 
+}
+
+
+@media (max-width: 600px) {
+    
+    }
+
